@@ -9,9 +9,6 @@ import { FormControl,FormGroup } from '@angular/forms';
 export class AppComponent {
   title = 'FormGroup';
   data;
-  name:string;
-  email:string;
-  phone:string;
 
   profileForm = new FormGroup({
     fgname : new FormControl(''),
